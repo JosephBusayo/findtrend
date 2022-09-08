@@ -10,6 +10,12 @@ body{
     text-align: center;
     background-color: #000000; 
 }
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 .nav-menu, .nav-btn{
     gap: 40px;
 }
@@ -234,10 +240,123 @@ span{
 }
 
 
+
+
+/* MAIN SECTION */
+.main-section{
+    margin-bottom: 40px;
+}
+#main-btn{
+    color: #FFFFFF;
+    background-color:#000000
+}
+.partners-title1{
+    font-family: 'Effra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: #000000;
+}
+.partner-span{
+    color: #ADADAD;
+}
+.partners-title2{
+    left: 140px;
+    top: 2366px;
+    font-family: 'Effra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+    color: #000000;
+}
+
+.partners-img-wrapper{
+    text-align: center;
+    justify-content: center;
+}
+
+/*PLATFORM SECTION */
+.platform-section{
+    background: #FAFAFA;
+}
+.platform-heading{
+    font-family: 'Effra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+    color: #000000;
+}
+.platform-socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 70px;
+}
+.socials{
+    width: 60px;
+}
+.tweet-img{
+    width: 800px;
+    padding-bottom: 40px;
+}
+
+
+/* DEALS SECTION */
+.deal-section{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #000000;
+    height: 1128px;
+    left: 0px;
+    top: 5447px;
+}
+.deal-title{
+    font-family: 'Effra';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.deal-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.monthly, .yearly{
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.yearly{
+    color: #F5F5F5;
+    opacity: 0.5;
+}
+.deal-card{
+    display: flex;
+    gap: 50px;
+}
+
 /* CONTACT */
 .contact{
+    height: 539px;
     left: 0px;
     top: 6575px;
+    background: #A8FF35;
+
     display: flex;
     text-align: center;
     justify-content: center;
@@ -266,6 +385,15 @@ span{
     line-height: 112%;
     text-align: center;
     color: #87D322;
+}
+.contact-btn{
+    border-radius: 40px;
+    color: #000000;
+    padding: 12px 32px;
+    gap: 10px;
+    border: none;
+    color: #FFFFFF;
+    background-color:#000000
 }
 
 /* FOOTER SECTION */
